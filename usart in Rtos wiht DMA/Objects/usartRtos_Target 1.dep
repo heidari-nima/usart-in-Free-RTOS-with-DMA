@@ -1,272 +1,0 @@
-Dependencies for Project 'usartRtos', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 6210000::V6.21::ARMCLANG
-F (.\main.c)(0x666CCBA0)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/main.o -MD)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (RTE\_Target_1\RTE_Components.h)(0x666088A9)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\FreeRTOS.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.hMTE\RTOS\FreeRTOSConfig.h)(0x00000000)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\projdefs.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\portable.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\deprecated_definitions.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\portable\GCC\ARM_CM3\portmacro.h)(0x6657000A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\mpu_wrappers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\task.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\list.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\semphr.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\queue.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569EF5A)
-F (D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Source/clib_os.c)(0x66570009)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/clib_os.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\FreeRTOS.h)(0x66570009)
-I (RTE\RTOS\FreeRTOSConfig.haTE\_Target_1\RTE_Components.h)(0x00000000)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\projdefs.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\portable.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\deprecated_definitions.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\portable\GCC\ARM_CM3\portmacro.h)(0x6657000A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\mpu_wrappers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\task.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\list.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\semphr.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\queue.h)(0x66570009)
-F (D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c)(0x66570009)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/cmsis_os2.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x662A53FC)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\RTOS2\Include\os_tick.h)(0x662A53FC)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\FreeRTOS.h)(0x66570009)
-I (RTE\RTOS\FreeRTOSConfig.haTE\_Target_1\RTE_Components.h)(0x00000000)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\projdefs.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\portable.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\deprecated_definitions.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\portable\GCC\ARM_CM3\portmacro.h)(0x6657000A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\mpu_wrappers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\task.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\list.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\event_groups.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\timers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\semphr.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\queue.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_mpool.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_os2.h)(0x66570009)
-F (D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Source/os_systick.c)(0x662A53FC)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/os_systick.o -MD)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\RTOS2\Include\os_tick.h)(0x662A53FC)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (RTE\_Target_1\RTE_Components.h)(0x666088A9)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-F (RTE/Device/STM32F103RC/RTE_Device.h)(0x662A5092)()
-F (RTE/Device/STM32F103RC/startup_stm32f10x_hd.s)(0x662A5091)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_HD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_hd.o)
-F (RTE/Device/STM32F103RC/system_stm32f10x.c)(0x662A5091)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/system_stm32f10x.o -MD)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (RTE\_Target_1\RTE_Components.h)(0x666088A9)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-F (D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c)(0x66570009)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/freertos_evr.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569EF5A)
-I (RTE\_Target_1\RTE_Components.h)(0x666088A9)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x66570009)
-F (D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/event_groups.c)(0x66570009)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/event_groups.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\FreeRTOS.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (RTE\_Target_1\RTE_Components.h)(0x666088A9)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\projdefs.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\portable.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\deprecated_definitions.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\portable\GCC\ARM_CM3\portmacro.h)(0x6657000A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\mpu_wrappers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\task.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\list.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\timers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\event_groups.h)(0x66570009)
-F (D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/list.c)(0x66570009)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/list.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\FreeRTOS.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (RTE\_Target_1\RTE_Components.h)(0x666088A9)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\projdefs.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\portable.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\deprecated_definitions.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\portable\GCC\ARM_CM3\portmacro.h)(0x6657000A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\mpu_wrappers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\list.h)(0x66570009)
-F (D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3/port.c)(0x6657000A)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/port.o -MD)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\FreeRTOS.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (RTE\_Target_1\RTE_Components.h)(0x666088A9)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\projdefs.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\portable.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\deprecated_definitions.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\portable\GCC\ARM_CM3\portmacro.h)(0x6657000A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\mpu_wrappers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\task.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\list.h)(0x66570009)
-F (D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/MemMang/heap_4.c)(0x6657000B)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/heap_4.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\FreeRTOS.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (RTE\_Target_1\RTE_Components.h)(0x666088A9)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\projdefs.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\portable.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\deprecated_definitions.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\portable\GCC\ARM_CM3\portmacro.h)(0x6657000A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\mpu_wrappers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\task.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\list.h)(0x66570009)
-F (D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/queue.c)(0x6657000C)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/queue.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\FreeRTOS.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (RTE\_Target_1\RTE_Components.h)(0x666088A9)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\projdefs.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\portable.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\deprecated_definitions.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\portable\GCC\ARM_CM3\portmacro.h)(0x6657000A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\mpu_wrappers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\task.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\list.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\queue.h)(0x66570009)
-F (D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/tasks.c)(0x6657000C)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/tasks.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\FreeRTOS.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (RTE\_Target_1\RTE_Components.h)(0x666088A9)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\projdefs.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\portable.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\deprecated_definitions.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\portable\GCC\ARM_CM3\portmacro.h)(0x6657000A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\mpu_wrappers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\task.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\list.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\timers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\stack_macros.h)(0x66570009)
-F (D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/timers.c)(0x6657000C)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RC-I./RTE/RTOS-I./RTE/_Target_1-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include-ID:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_HD -D_RTE_-o ./objects/timers.o -MD)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569EF5A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\FreeRTOS.h)(0x66570009)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569EF5A)
-I (d:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569EF5A)
-I (RTE\_Target_1\RTE_Components.h)(0x666088A9)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x662A53EE)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x662A53EF)
-I (d:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569EF58)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x662A5091)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\projdefs.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\portable.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\deprecated_definitions.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\portable\GCC\ARM_CM3\portmacro.h)(0x6657000A)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\mpu_wrappers.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\task.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\list.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\queue.h)(0x66570009)
-I (D:\Users\Nova\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\timers.h)(0x66570009)
-F (RTE/RTOS/FreeRTOSConfig.h)(0x66570009)()
