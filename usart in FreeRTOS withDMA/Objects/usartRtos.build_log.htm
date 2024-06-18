@@ -1,0 +1,209 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=Z3C6R-KCF1P-GQN0H-WJZE7-QF68V-WRI1V
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.39.0.0
+Toolchain Path:  d:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.2.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\document\ARM\usartRtos\usartRtos.uvprojx
+Project File Date:  06/13/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'd:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(1): warning: In file included from...
+D:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+D:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+D:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+main.c(2): warning: In file included from...
+D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include\FreeRTOS.h(64): warning: In file included from...
+./RTE/RTOS\FreeRTOSConfig.h(352): warning: '__ARM_ARCH_7A__' is not defined, evaluates to 0 [-Wundef]
+  352 | #if (__ARM_ARCH_7A__ == 1U)
+      |      ^
+main.c(22): warning: no previous extern declaration for non-static variable 'rx_complete' [-Wmissing-variable-declarations]
+   22 | volatile uint8_t rx_complete = 0;
+      |                  ^
+main.c(22): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   22 | volatile uint8_t rx_complete = 0;
+      |          ^
+main.c(105): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  105 |     USART1->BRR = SystemCoreClock / baudRate;
+      |                 ~ ~~~~~~~~~~~~~~~~^~~~~~~~~~
+main.c(103): warning: mixing declarations and code is incompatible with standards before C99 [-Wdeclaration-after-statement]
+  103 |                 uint32_t baudRate =9600;
+      |                          ^
+main.c(141): warning: implicit conversion loses integer precision: 'unsigned int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  141 |             uint16_t pos = sizeof(rx_buffer) - DMA1_Channel5->CNDTR;
+      |                      ~~~   ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+main.c(152): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+  152 |                                                                  DMA1_Channel4->CCR &= ~DMA_CCR4_EN;
+      |                                                                                     ~~ ^~~~~~~~~~~~
+main.c(134): warning: unused parameter 'pvParameters' [-Wunused-parameter]
+  134 | void UART_Task(void *pvParameters)
+      |                      ^
+main.c(135): warning: function 'UART_Task' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+  135 | {
+      | ^
+main.c(197): warning: no previous prototype for function 'Error_Handler' [-Wmissing-prototypes]
+  197 | void Error_Handler(void)
+      |      ^
+main.c(197): note: declare 'static' if the function is not intended to be used outside of this translation unit
+  197 | void Error_Handler(void)
+      | ^
+      | static 
+main.c(198): warning: function 'Error_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+  198 | {
+      | ^
+main.c(20): warning: no previous extern declaration for non-static variable 'rx_buffer' [-Wmissing-variable-declarations]
+   20 | char rx_buffer[100];
+      |      ^
+main.c(20): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   20 | char rx_buffer[100];
+      | ^
+main.c(21): warning: no previous extern declaration for non-static variable 'tx_buffer' [-Wmissing-variable-declarations]
+   21 | char tx_buffer[100];
+      |      ^
+main.c(21): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   21 | char tx_buffer[100];
+      | ^
+main.c(25): warning: no previous extern declaration for non-static variable 'txCompleteSemaphore' [-Wmissing-variable-declarations]
+   25 | SemaphoreHandle_t txCompleteSemaphore;
+      |                   ^
+main.c(25): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   25 | SemaphoreHandle_t txCompleteSemaphore;
+      | ^
+main.c(27): warning: no previous extern declaration for non-static variable 'rxDataSemaphore' [-Wmissing-variable-declarations]
+   27 | SemaphoreHandle_t rxDataSemaphore;
+      |                   ^
+main.c(27): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   27 | SemaphoreHandle_t rxDataSemaphore;
+      | ^
+main.c(145): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  145 |                     memcpy(tx_buffer, &rx_buffer[old_pos], pos - old_pos);
+      |                                        ^~~~~~~~~
+main.c(147): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  147 |                     memcpy(tx_buffer, &rx_buffer[old_pos], sizeof(rx_buffer) - old_pos);
+      |                                        ^~~~~~~~~
+main.c(148): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  148 |                     memcpy(&tx_buffer[sizeof(rx_buffer) - old_pos], rx_buffer, pos);
+      |                             ^~~~~~~~~
+20 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=14192 RO-data=380 RW-data=8 ZI-data=13008  
+FromELF: creating hex file...
+".\Objects\usartRtos.axf" - 0 Error(s), 20 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.0.0.pack
+                ARM::CMSIS@6.0.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: OS Tick Version: 1.0.1
+   * Component: RTOS2 Version: 2.3.0
+   * Component: CORE Version: 6.0.0
+   * Component: SysTick Version: 1.0.5
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-FreeRTOS.11.1.0.pack
+                ARM::CMSIS-FreeRTOS@11.1.0
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: FreeRTOS Variant: Cortex-M Version: 11.1.0
+   * Component: Config Variant: CMSIS RTOS2 Version: 11.1.0
+   * Component: Core Variant: Cortex-M Version: 11.1.0
+   * Component: Event Groups Version: 11.1.0
+   * Component: Heap Variant: Heap_4 Version: 11.1.0
+   * Component: Timers Version: 11.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103RC
+  ./RTE/RTOS
+  ./RTE/_Target_1
+  D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/CMSIS/RTOS2/FreeRTOS/Include
+  D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include
+  D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/portable/GCC/ARM_CM3
+  D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include
+  D:/Users/Nova/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/RTOS2/Include
+  D:/Users/Nova/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:OS Tick(API)@1.0.1
+      Include file:  CMSIS/RTOS2/Include/os_tick.h
+
+   * Component: ::CMSIS:RTOS2(API)@2.3.0
+      Include file:  CMSIS/RTOS2/Include/cmsis_os2.h
+
+   * Component: ARM::CMSIS:CORE@6.0.0
+
+   * Component: ARM::CMSIS:OS Tick:SysTick@1.0.5
+      Source file:   CMSIS/RTOS2/Source/os_systick.c
+
+   * Component: ARM::CMSIS:RTOS2:FreeRTOS&Cortex-M@11.1.0
+      Include file:  CMSIS/RTOS2/FreeRTOS/Include/freertos_mpool.h
+      Source file:   CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c
+      Source file:   CMSIS/RTOS2/FreeRTOS/Source/clib_os.c
+
+   * Component: ARM::RTOS&FreeRTOS:Config&CMSIS RTOS2@11.1.0
+      Include file:  CMSIS/RTOS2/FreeRTOS/Config/FreeRTOSConfig.h
+
+   * Component: ARM::RTOS&FreeRTOS:Core&Cortex-M@11.1.0
+      Source file:   Source/portable/GCC/ARM_CM3/port.c
+      Include file:  Source/include/FreeRTOS.h
+      Include file:  Source/include/task.h
+      Include file:  Source/include/semphr.h
+      Include file:  Source/include/queue.h
+      Source file:   Source/queue.c
+      Source file:   Source/list.c
+      Source file:   Source/tasks.c
+      Source file:   CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c
+
+   * Component: ARM::RTOS&FreeRTOS:Event Groups@11.1.0
+      Source file:   Source/event_groups.c
+      Include file:  Source/include/event_groups.h
+
+   * Component: ARM::RTOS&FreeRTOS:Heap&Heap_4@11.1.0
+      Source file:   Source/portable/MemMang/heap_4.c
+
+   * Component: ARM::RTOS&FreeRTOS:Timers@11.1.0
+      Include file:  Source/include/timers.h
+      Source file:   Source/timers.c
+
+   * Component: Keil::Device:Startup@1.0.0
+      Source file:   Device/Source/system_stm32f10x.c
+      Source file:   Device/Source/ARM/startup_stm32f10x_hd.s
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Include file:  RTE_Driver/Config/RTE_Device.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
