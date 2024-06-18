@@ -21,6 +21,7 @@ Key Features of UART:
 
 UART's simplicity, ease of implementation, and reliable data transmission make it a versatile choice for a wide range of communication applications in various fields.
 
+![image](https://github.com/heidari-nima/usart-with-Free-RTOS-with-DMA/assets/79926326/2c029c6c-9c6e-4eca-a441-fe60d1f312fa)
 
 Reception using DMA DMA mode can be enabled for reception by setting the DMAR bit in USART_CR3 register. Data is loaded from the USART_DR register to a SRAM area configured using the DMA peripheral (refer to the DMA specification) whenever a data byte is received. To map a DMA channel for USART reception, use the following procedure:
  1. Write the USART_DR register address in the DMA control register to configure it as the source of the transfer. The data will be moved from this address to the memory after each RXNE event. 
@@ -29,13 +30,8 @@ Reception using DMA DMA mode can be enabled for reception by setting the DMAR bi
 4. Configure the channel priority in the DMA control register 
 5. Configure interrupt generation after half/ full transfer as required by the application. 
 6. Activate the channel in the DMA control register. When the number of data transfers programmed in the DMA Controller is reached, the DMA controller generates an interrupt on the DMA channel interrupt vector.
+![image](https://github.com/heidari-nima/usart-with-Free-RTOS-with-DMA/assets/79926326/6af996cc-dbe9-4ce0-81c0-1a4259a73e45)
+![image](https://github.com/heidari-nima/usart-with-Free-RTOS-with-DMA/assets/79926326/c39bfe90-4fe5-44d2-bf21-a3cd11d23de1)
 
-
-
-
-
-	 
-
- 
 
 In this project we use idle line detect interrupt for understanding  when data receiving is ended  
